@@ -20,7 +20,7 @@ with tab1:
 
 
     
-    data = pd.read_csv('F:/rating/women_cloth_reviews_final.csv')
+    data = pd.read_csv('women_cloth_reviews_final.csv')
     df = pd.DataFrame(data)
 
     st.title("Clothing Review Dashboard")
