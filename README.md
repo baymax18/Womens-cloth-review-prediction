@@ -38,14 +38,13 @@ This is a **multi-class text classification** problem using supervised learning.
 ## 🛠️ Project Pipeline
 
 1. **Data Preprocessing**  
-   - Remove nulls  
-   - Clean text (lowercasing, removing punctuation, etc.)
+   - clean data 
 
 2. **Text Vectorization**  
-   - Convert text reviews to TF-IDF feature vectors.
+   - Convert text reviews to TF-IDF feature vectors or .
 
 3. **Model Training**  
-   - Logistic Regression for multi-class classification.
+   - Multinominal Naive Bayes for multi-class classification.
 
 4. **Evaluation**  
    - Accuracy  
